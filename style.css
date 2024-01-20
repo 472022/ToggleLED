@@ -1,0 +1,97 @@
+.wrapper {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.col_3 {
+    width: 33.3333333%;
+    float: left;
+    min-height: 1px;
+}
+
+#one {
+    background-color: #2bbaff;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#one.click-animation {
+    background-color: #007BFF; /* Change the color to your desired click effect color */
+}
+
+#second {
+    background-color: #2bbaff;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#second.click-animation {
+    background-color: #007BFF; /* Change the color to your desired click effect color */
+}
+
+#third {
+    background-color: #2bbaff;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#third.click-animation {
+    background-color: #007BFF; /* Change the color to your desired click effect color */
+}
+
+#fourth {
+    background-color: #2bbaff;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#fourth.click-animation {
+    background-color: #007BFF; /* Change the color to your desired click effect color */
+}
+
+.led_img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .col_3 {
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 100%;
+        padding-top: 5px;
+    }
+
+    .led_img {
+        height: 300px;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
